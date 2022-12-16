@@ -8,7 +8,7 @@ const Navbar = (props) => {
         className={`navbar navbar-expand-lg px-5 navbar-${props.mode} bg-${props.mode}`}
         id="nav"
       >
-        <a className="navbar-brand" href="https://varaldinesh.github.io/Text-Utils/">
+        <a className="navbar-brand" href="/">
           {props.title}
         </a>
         <button
@@ -30,7 +30,7 @@ const Navbar = (props) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="https://varaldinesh.github.io/Text-Utils/about">
+              <Link className="nav-link" to="/about">
                 About
               </Link>
             </li>
