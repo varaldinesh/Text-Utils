@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
   return (
@@ -25,15 +25,15 @@ const Navbar = (props) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="https://varaldinesh.github.io/Text-Utils/">
+              <link className="nav-link active" aria-current="page" to="https://varaldinesh.github.io/Text-Utils/">
                 Home
-              </a>
+              </link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/about">
+            <li className="nav-item">
+              <Link className="nav-link" to="https://varaldinesh.github.io/Text-Utils/about">
                 About
               </Link>
-            </li> */}
+            </li>
           </ul>
           <div className="form-check form-switch">
             <input
